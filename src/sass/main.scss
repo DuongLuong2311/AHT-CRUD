@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+
+    &:hover{
+        color: #000;
+    }
+
+
+
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 -15px;
+}
+
+
+//Menu
+.header{
+    
+
+    a{
+        button{
+            color: #fff;
+        }
+    }
+    
+}
+
+
+
+
+//Student
+.students{
+    margin:30px auto;
+}
+
+
+
+
+//FORM 
+.form-control{
+    padding: 30px 0;
+    h1{
+        text-align: center;
+    }
+    .MuiFormControl-root{
+        width: 100%;
+        
+
+        input{
+            width: 100%;
+        }
+    }
+}
