@@ -1,19 +1,14 @@
 {
-  "classes": [
-    {
-      "id": 1,
-      "name": "ReactJS"
-    },
-    {
-      "id": 2,
-      "name": "JavaScript"
-    },
-    {
-      "id": 3,
-      "name": "PHP"
-    }
-  ],
+
   "students": [
+    {
+      "name": "Dương Thanh Lương",
+      "email": "duongthanhluong2311@gmail.com",
+      "address": " Nhân Chính, Thanh Xuân, Hà Nội",
+      "dob": "1999-11-23",
+      "gender": "Male",
+      "id": 1
+    },
     {
       "id": 2,
       "name": "Lộc Khánh Hòa",
@@ -21,14 +16,6 @@
       "dob": "1999-11-13",
       "email": "lockhachhoa131101@gmail.com",
       "address": "Hoàng Su Phì, Hà Giang"
-    },
-    {
-      "name": "Dương Thanh Lương",
-      "email": "duongthanhluong2311@gmail.com",
-      "address": " Nhân Chính, Thanh Xuân, Hà Nội",
-      "dob": "1999-11-23",
-      "gender": "Male",
-      "id": 3
     }
   ]
 }

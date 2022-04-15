@@ -40,12 +40,9 @@ export default function StudentTable() {
   },[])
 
 
-
-
-
   return (
     <div className="container students">
-          <Links to="/students/add/">
+          <Links to="/add/">
             <Button>Add</Button>
           </Links>
 
@@ -58,9 +55,8 @@ export default function StudentTable() {
                 <TableCell>Email</TableCell>
                 <TableCell>Class ID</TableCell>
                 <TableCell align="center">Address</TableCell>
-                <TableCell align="center"> Action </TableCell>
+                <TableCell align="center">Action </TableCell>
               </TableRow>
-              
             </TableHead>
 
             { students && students.map((student) => {
@@ -75,7 +71,7 @@ export default function StudentTable() {
                     <TableCell>{student.class_id}</TableCell>
                     <TableCell align="right">{student.address}</TableCell>
                     <TableCell align="center">
-                      <Links to={`/students/edit/${student.id}`}>
+                      <Links to={`/edit/${student.id}`}>
                         <Fab
                           size="small"
                           sx={{ mr: 1 }}

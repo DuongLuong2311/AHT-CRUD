@@ -29,17 +29,6 @@ export default function Menu() {
                 Duong Luong
               </Typography>
             </Links>
-
-            <ButtonGroup variant="text" aria-label="text button group">
-              <Links to="/counter"  color="#fff">
-                <Button color="inherit">Counter</Button>
-              </Links>
-
-              <Links to="/" color="#fff">
-                <Button color="inherit">Blank</Button>
-              </Links>
-
-            </ButtonGroup>
           </Toolbar>
         </AppBar>
       </Box>

@@ -21,8 +21,13 @@ import {
   useState
 } from 'react';
 
-import {useNavigate, useParams } from 'react-router-dom';
-import { GlobalContext } from '../store/contextProvider';
+import {
+  useNavigate, 
+  useParams 
+} from 'react-router-dom';
+import { 
+  GlobalContext 
+} from '../store/contextProvider';
 
 
 
