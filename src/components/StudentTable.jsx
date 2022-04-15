@@ -53,7 +53,6 @@ export default function StudentTable() {
                 <TableCell>Gender</TableCell>
                 <TableCell>Dob</TableCell>
                 <TableCell>Email</TableCell>
-                <TableCell>Class ID</TableCell>
                 <TableCell align="center">Address</TableCell>
                 <TableCell align="center">Action </TableCell>
               </TableRow>
@@ -68,8 +67,7 @@ export default function StudentTable() {
                     <TableCell>{student.gender}</TableCell>
                     <TableCell>{student.dob}</TableCell>
                     <TableCell>{student.email}</TableCell>
-                    <TableCell>{student.class_id}</TableCell>
-                    <TableCell align="right">{student.address}</TableCell>
+                    <TableCell align="center">{student.address}</TableCell>
                     <TableCell align="center">
                       <Links to={`/edit/${student.id}`}>
                         <Fab

@@ -1,14 +1,5 @@
 {
-
   "students": [
-    {
-      "name": "Dương Thanh Lương",
-      "email": "duongthanhluong2311@gmail.com",
-      "address": " Nhân Chính, Thanh Xuân, Hà Nội",
-      "dob": "1999-11-23",
-      "gender": "Male",
-      "id": 1
-    },
     {
       "id": 2,
       "name": "Lộc Khánh Hòa",
@@ -16,6 +7,14 @@
       "dob": "1999-11-13",
       "email": "lockhachhoa131101@gmail.com",
       "address": "Hoàng Su Phì, Hà Giang"
+    },
+    {
+      "name": "Duong Thanh Luong",
+      "email": "duongthanhluong2311@gmail.com",
+      "address": "Nhân Chính, Thanh Xuân, Hà Nội",
+      "gender": "Male",
+      "dob": "1999-11-23",
+      "id": 3
     }
   ]
 }
