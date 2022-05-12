@@ -18,7 +18,6 @@ import {
 import { 
   useContext, 
   useEffect, 
-  useState
 } from 'react';
 
 import {
@@ -45,7 +44,7 @@ export default function StudentForm() {
       if(id){
         getStudentByID(id);
       }
-  },[])
+    },[])
 
   const handleSubmitStudent = (e) => {
     e.preventDefault()
@@ -60,7 +59,7 @@ export default function StudentForm() {
 
 
   const handleChangeStudent = (e) => {
-        setStudent({
+      setStudent({
       ...student, 
       [e.target.name]: e.target.value,
     })
@@ -136,27 +135,9 @@ export default function StudentForm() {
             helperText="Please enter your address"
           />
 
-          
-        {/* <FormControl variant="filled" sx={{ mb: 3}} >
-          <InputLabel id="demo-simple-select-filled-label">Class</InputLabel>
-          <Select
-            labelId="demo-simple-select-filled-label"
-            id="demo-simple-select-filled"
-
-          >
-            <MenuItem value="">
-              <em>None</em>
-            </MenuItem>
-            <MenuItem value={10}>PHP</MenuItem>
-            <MenuItem value={20}>Javascript</MenuItem>
-            <MenuItem value={30}>ReactJS</MenuItem>
-          </Select>
-        </FormControl> */}
-
-
           <Button type="submit" variant="contained">Save</Button>
 
-          <Links to="/students">
+          <Links to={-1}>
             <Button type="button" sx={{mt: 2}} style={{width: '100%'}}>Cancel</Button>
           </Links>
 

@@ -5,11 +5,6 @@ import {
 } from 'react-router-dom'
 
 
-
-// import { useGlobalContext } from "./context";
-
-
-
 //Component 
 import Menu from './components/Menu.jsx'
 

@@ -1,20 +1,60 @@
 {
   "students": [
     {
-      "id": 2,
-      "name": "Lộc Khánh Hòa",
-      "gender": "Female",
-      "dob": "1999-11-13",
-      "email": "lockhachhoa131101@gmail.com",
-      "address": "Hoàng Su Phì, Hà Giang"
-    },
-    {
       "name": "Duong Thanh Luong",
       "email": "duongthanhluong2311@gmail.com",
       "address": "Nhân Chính, Thanh Xuân, Hà Nội",
       "gender": "Male",
       "dob": "1999-11-23",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Dương Minh Anh",
+      "gender": "Female",
+      "dob": "2006-05-09",
+      "email": "duongminhanh090506@gmail.com",
+      "address": "Thanh Xuân, Hà Nội"
+    },
+    {
+      "name": "La Tiến Phúc",
+      "gender": "Male",
+      "dob": "2004-07-07",
+      "email": "latienphuc77@gmail.com",
+      "address": "Thanh Xuân, Hà Nội",
       "id": 3
+    },
+    {
+      "name": "La Tiến Dũng",
+      "gender": "Male",
+      "dob": "2010-05-08",
+      "email": "latiendung0805@gmail.com",
+      "address": "Nhân Chính, Thanh Xuân, Hà Nội",
+      "id": 4
+    },
+    {
+      "name": "Nguyễn Duy Phong",
+      "gender": "Male",
+      "dob": "2003-08-10",
+      "email": "duyphong03@gmail.com",
+      "address": "Tây Mỗ",
+      "id": 5
+    },
+    {
+      "name": "Nguyễn Dương Yến Linh",
+      "gender": "Female",
+      "dob": "2006-11-28",
+      "email": "yenlinh2811@gmail.com",
+      "address": "Tây Mỗ",
+      "id": 6
+    },
+    {
+      "name": "Lộc Khánh Hòa",
+      "gender": "Female",
+      "dob": "2001-11-13",
+      "email": "lockhanhhoa1311@gmail.com",
+      "address": "Hoàng Su Phì, Hà Giang",
+      "id": 7
     }
   ]
 }

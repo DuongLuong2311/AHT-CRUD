@@ -1,7 +1,6 @@
 import {
   createContext,
-  useReducer,
-  
+  useReducer
 } from 'react'
 
 
@@ -28,6 +27,7 @@ export const Provider = ({children}) => {
   const [stateStudents, dispatchStudents] = useReducer(studentReducer ,[])
    
 
+  //Set Student
   const setStudent = (newStudent) => {
     dispatchStudents({
         type: actionName.SET_STUDENT,
@@ -35,6 +35,8 @@ export const Provider = ({children}) => {
       });
   }
  
+
+  // Get Student
   const getStudent = () =>{
     studentsAPI.getStudents("").then((res) => {
       dispatchStudents({
@@ -44,6 +46,8 @@ export const Provider = ({children}) => {
     });
   }
 
+
+  //Get Student By ID
   const getStudentByID = (id) =>{
     studentsAPI.getStudents(id).then((res) => {
       dispatchStudents({
@@ -54,6 +58,8 @@ export const Provider = ({children}) => {
     
   }
 
+
+    //Delete Student
     const deleteStudent = (id) => {
       studentsAPI.deleteStudents(id).then((res) => {
         dispatchStudents({
@@ -64,6 +70,8 @@ export const Provider = ({children}) => {
       })
     }
 
+
+    //Edit Student
     const editStudent = (student, id) => {
       studentsAPI.putStudent(student, id).then((res) => {
         dispatchStudents({
@@ -74,6 +82,8 @@ export const Provider = ({children}) => {
       })
     }
 
+
+    //Add Student
     const addStudent = (student) => {
       studentsAPI.postStudent(student).then((res) => {
         dispatchStudents({

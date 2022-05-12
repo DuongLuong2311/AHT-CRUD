@@ -4,7 +4,6 @@ import {
   Button,
   TableRow,
   TableHead,
-  TableContainer,
   TableCell,
   TableBody,
   Table,
@@ -31,13 +30,13 @@ import {
 
 export default function StudentTable() {
 
-  // const value = useContext(Context)
 
   const [{students,deleteStudent, getStudent}] = useContext(GlobalContext)
 
   useEffect(() => {
     getStudent();
   },[])
+
 
 
   return (
